@@ -1,0 +1,12 @@
+<div class="test1-container" *ngIf="test1List">
+    <h1>List of Tests</h1>
+    <ul>
+        <li *ngFor="let test1 of test1List" class="test1-item">
+            <p>ID: {{ test1.id }}</p>
+            <p>Email: {{ test1.email }}</p>
+            <p>Name: {{ test1.name }}</p>
+            <p>Last Name: {{ test1.lastname }}</p>
+            <p>Phone Number: {{ test1.phonenumber }}</p>
+        </li>
+    </ul>
+</div>
